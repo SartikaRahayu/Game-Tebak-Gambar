@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gametebakgambar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Gajahactivity"
+            android:label="@string/title_activity_gajahactivity" >
+        </activity>
+        <activity
+            android:name=".GajahKuda"
+            android:label="@string/title_activity_gajah_kuda" >
+        </activity>
+        <activity
+            android:name=".Distribusi"
+            android:label="@string/title_activity_distribusi" >
+        </activity>
+        <activity
+            android:name=".JamTangan"
+            android:label="@string/title_activity_jam_tangan" >
+        </activity>
+        <activity
+            android:name=".KatakanSayang"
+            android:label="@string/title_activity_katakan_sayang" >
+        </activity>
+        <activity
+            android:name=".KerajinanBola"
+            android:label="@string/title_activity_kerajinan_bola" >
+        </activity>
+        <activity
+            android:name=".LampuMerah"
+            android:label="@string/title_activity_lampu_merah" >
+        </activity>
+        <activity
+            android:name=".MakanMalam"
+            android:label="@string/title_activity_makan_malam" >
+        </activity>
+        <activity
+            android:name=".Samanhudi"
+            android:label="@string/title_activity_samanhudi" >
+        </activity>
+        <activity
+            android:name=".Suksesmenjawab"
+            android:label="@string/title_activity_suksesmenjawab" >
+        </activity>
+    </application>
+
+</manifest>
